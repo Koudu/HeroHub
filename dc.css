@@ -9,8 +9,8 @@
   user-select: none;
 }
 
-.main-info {
-  display: absolute;
+.main-dc-text {
+  display: flex;
 }
 
 .main-dc-text {
@@ -31,22 +31,21 @@
   font-size: 40px;
 }
 
-.GreenArrow-picture {
-  margin-left: 900px;
-  margin-top: 50px;
-  height:754px;
-  width: 480px;
+.Joker-picture {
+  margin-left: 1170px;
+  margin-top: -330px;
+  height:554px;
+  width: 370px;
   background-position: center;
   background-size: 100%;
-  position:absolute;
 }
 
 .tile-with-information {
   margin-left: 250px;
-  margin-top: 50px;
   display: flex;
 }
 
+/* Супермен */
 .tile-with-information-1 {
   height: 200px;
   width: 400px;
@@ -54,6 +53,32 @@
   border-radius: 30px;
 }
 
+.SuperManMenuClass {
+  margin-left: 30px;
+  background-color: #464646;
+  border-radius: 30px;
+}
+
+.SuperManMenu1 {
+  margin-top: 65px;
+  font-size: 37px;
+  width: 100px;
+  font-family: MontserratAlternates;
+  background-color: #464646;
+  border-radius: 30px;
+  position: relative;
+}
+
+.SuperManMenu {
+  margin-top: -100;
+  margin-left: 195px;
+  height: 190px;
+  width: 205px;
+  background-color: #464646;
+  border-radius: 0px 30px 30px 0px;
+}
+
+/* Бэтмен */
 .tile-with-information-2 {
   margin-left: 50px;
   height: 200px;
@@ -62,10 +87,63 @@
   border-radius: 30px;
 }
 
+.BatmanMenuClass {
+  margin-left: 30px;
+  display: grid;
+  background-color: #464646;
+  border-radius: 30px;
+}
+
+.BatmanMenu1 {
+  margin-top: 65px;
+  font-size: 45px;
+  width: 100px;
+  font-family: MontserratAlternates;
+  background-color: #464646;
+  border-radius: 30px;
+  position: relative;
+}
+
+.BatmanMenu {
+  margin-top: -110px;
+  margin-left: 200px;
+  height: 190px;
+  width: 200px;
+  background-color: #464646;
+  border-radius: 0px 30px 30px 0px;
+}
+
+/* Флэш */
 .tile-with-information-3 {
   margin-left: 50px;
   height: 200px;
   width: 400px;
   background-color: #464646;
   border-radius: 30px;
+}
+
+.FlashMenuClass {
+  margin-left: 30px;
+  display: grid;
+  background-color: #464646;
+  border-radius: 30px;
+}
+
+.FlashMenu1 {
+  margin-top: 65px;
+  font-size: 50px;
+  width: 100px;
+  font-family: MontserratAlternates;
+  background-color: #464646;
+  border-radius: 30px;
+  position: relative;
+}
+
+.FlashMenu {
+  margin-top: -116px;
+  margin-left: 229px;
+  height: 190px;
+  width: 170px;
+  background-color: #464646;
+  border-radius: 0px 30px 30px 0px;
 }

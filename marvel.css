@@ -46,6 +46,7 @@
   display: flex;
 }
 
+/* Человек-Паук */
 .tile-with-information-1 {
   height: 200px;
   width: 400px;
@@ -91,7 +92,7 @@
   border-radius: 0px 30px 30px 0px;
 }
 
-
+/* Тор */
 .tile-with-information-2 {
   margin-left: 50px;
   height: 200px;
@@ -127,6 +128,7 @@
   border-radius: 0px 30px 30px 0px;
 }
 
+/* Халк */
 .tile-with-information-3 {
   margin-left: 50px;
   height: 200px;
