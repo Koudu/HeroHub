@@ -48,3 +48,24 @@
   margin-left: 50px;
   cursor: pointer;
 }
+
+/* Ферстка под различные разрешения */
+@media (max-width: 1440px) {  
+  .nameWebsite {
+    font-size: 35px;
+  }
+  
+  .menu {
+    margin-left: 400px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .nameWebsite {
+    font-size: 30px;
+  }
+  
+  .menu {
+    margin-left: 270px;
+  }
+}
