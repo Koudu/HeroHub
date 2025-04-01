@@ -11,8 +11,15 @@
   border: none;
   box-sizing: border-box;
   font-family: Arial;
-  background-color: #5f5f5f;
   color: #fff;
+}
+
+.BackgroundMain {
+  z-index: 0;
+  width: auto;
+  height: 100%;
+  object-fit: cover;
+
 }
 
 .up-panel {
@@ -20,32 +27,49 @@
   height: 60px;
   display: flex;
   user-select: none;
+  position: absolute;
 }
 
 .nameWebsite {
   margin: 5px 0px 0px 10px;
   font-size: 40px;
-  font-family: LIQUIDNIGHTRegular;
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration: none;
 }
 
-.menu {
-  margin-top: 17px;
-  margin-left: 500px;
-  font-size: 20px;
+.page-cover {
   display: flex;
+  --height-block: 75%;
+  --height-display: 100%;
 }
 
-.marvelPanel {
+/* Дварф */
+.BlockDwarf {
+  height: var(--height-block);
+  position: absolute;
+  top: calc((var(--height-display) - var(--height-block)) / 2);
+  left: 8%;
+  display: flex;
   cursor: pointer;
 }
 
-.DCPanel {
-  margin-left: 50px;
+/* Эльф */
+.BlockElf {
+  height: var(--height-block);
+  position: absolute;
+  top: calc((var(--height-display) - var(--height-block)) / 2);
+  left: 37.5%;
+  display: flex;
   cursor: pointer;
 }
 
-.HPPanel {
-  margin-left: 50px;
+/* Дракон */
+.BlockDragon {
+  height: var(--height-block);
+  position: absolute;
+  top: calc((var(--height-display) - var(--height-block)) / 2);
+  left: 67%;
+  display: flex;
   cursor: pointer;
 }
 
@@ -67,5 +91,35 @@
   
   .menu {
     margin-left: 270px;
+  }
+}
+
+@media (max-width: 1228px) {
+  .market {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 790px) {
+  .market {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 320px) {
+  .product {
+    width: 230px;
+  }
+}
+
+@media (max-height: 1207px) {
+  .page-cover {
+    --height-block: 65%;
+  }
+}
+
+@media (max-height: 720px) {
+  .page-cover {
+    --height-block: 60%;
   }
 }

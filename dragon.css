@@ -1,0 +1,326 @@
+@font-face {
+  font-family: 'DwarvenStonecraftCyr';
+  src: url('./font/DwarvenStonecraftCyr.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  /* background-position: center; */
+  background-color: #142e36;
+}
+
+.previewDwarfImg {
+  width: 100%;
+  height: auto;
+}
+
+.previewDwarfText {
+  position: absolute;
+  top: 20%;
+  margin-left: 100px;
+  font-size: 100px;
+  font-family: DwarvenStonecraftCyr;
+}
+
+.infoDwarf {
+  width: 1500px;
+  height: auto;
+  margin: 40px auto;
+  display: grid;
+  font-size: 19px;
+  line-height: 25px;
+}
+
+.blockInfo {
+  width: 1500px;
+  height: auto;
+  margin-top: 30px;
+  align-items: center;
+  display: flex;
+}
+
+.blockText_1 {
+  margin-top: 234px;
+}
+
+.infoTextMain {
+  width: auto;
+  height: auto;
+  padding: 20px;
+  margin-top: -248px;
+  border-radius: 15px;
+  align-items: center;
+  background-color: #304550;
+}
+
+.quote {
+  margin-top: 30px;
+  margin-left: 380px;
+  display: flex;
+  align-items: center;
+}
+
+.quoteDwarf {
+  width: 350px;
+}
+
+.firstQuotationMarks {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.secondQuotationMarks {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+.source {
+  margin-top: 5px;
+  margin-left: 410px;
+}
+
+.infoDwarfImg_1 {
+  width: 260px;
+  margin-left: 60px;
+  border-radius: 15px;
+}
+
+.infoText {
+  width: auto;
+  height: auto;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 15px;
+  align-items: center;
+  display: grid;
+  background-color: #304550;
+}
+
+.heading {
+  margin-top: 30px;
+}
+
+.blockInfo_2 {
+  width: 1500px;
+  height: auto;
+  margin-top: 10px;
+  align-items: center;
+  display: flex;
+}
+
+.list {
+  margin-left: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Ферстка под различные разрешения */
+/* @media (max-width: 1440px) {
+  .main-dc-text {
+    margin-top: 100px;
+    margin-left: 10%;
+  }
+
+  .main-dc-text-1 {
+    width: 600px;
+    font-size: 50px;
+  }
+
+  .Joker-picture {
+    margin-left: 66%;
+    margin-top: -330px;
+    height:450px;
+    width: 305px;
+  }
+
+  .tile-with-information {
+    margin-left: 150px;
+  } */
+
+  /* Супермен */
+  /* .tile-with-information-1 {
+    height: 200px;
+    width: 350px;
+  }
+
+  .SuperManMenuClass {
+    margin-left: 30px;
+    border-radius: 30px;
+  }
+
+  .SuperManMenu1 {
+    margin-top: 65px;
+    font-size: 30px;
+    width: 20px;
+  }
+
+  .SuperManMenu {
+    margin-top: -100;
+    margin-left: 145px;
+    height: 198px;
+    width: 205px;
+  } */
+
+  /* Бэтмен */
+  /* .tile-with-information-2 {
+    margin-left: 50px;
+    height: 200px;
+    width: 350px;
+  }
+
+  .BatmanMenuClass {
+    margin-left: 30px;
+  }
+
+  .BatmanMenu1 {
+    margin-top: 65px;
+    font-size: 35px;
+    width: 50px;
+  }
+
+  .BatmanMenu {
+    margin-top: -106px;
+    margin-left: 150px;
+    height: 198px;
+    width: 200px;
+  }
+
+  /* Флэш */
+  /* .tile-with-information-3 {
+    margin-left: 50px;
+    height: 200px;
+    width: 350px;
+  }
+
+  .FlashMenuClass {
+    margin-left: 30px;
+  }
+
+  .FlashMenu1 {
+    margin-top: 65px;
+    font-size: 40px;
+    width: 50px;
+  }
+
+  .FlashMenu {
+    margin-top: -113px;
+    margin-left: 180px;
+    height: 198px;
+    width: 170px;
+  }
+} */
+
+/* @media (max-width: 1024px) {
+  .main-dc-text {
+    margin-top: 100px;
+    margin-left: 5%;
+  }
+
+  .main-dc-text-1 {
+    width: 600px;
+    font-size: 50px;
+  }
+
+  .Joker-picture {
+    margin-left: 66%;
+    margin-top: -290px;
+    height:400px;
+    width: 255px;
+  }
+
+  .tile-with-information {
+    margin-left: 35px;
+  }
+
+  /* Супермен */
+  /* .tile-with-information-1 {
+    height: 180px;
+    width: 300px;
+  }
+
+  .SuperManMenu1 {
+    margin-left: -20px;
+    margin-top: 70px;
+    font-size: 23px;
+    width: 20px;
+  }
+
+  .SuperManMenu {
+    margin-top: -98;
+    margin-left: 110px;
+    height: 180px;
+    width: 190px;
+  } */
+
+  /* Бэтмен */
+  /* .tile-with-information-2 {
+    margin-left: 20px;
+    height: 180px;
+    width: 300px;
+  }
+
+  .BatmanMenu1 {
+    margin-left: -20px;
+    margin-top: 70px;
+    font-size: 30px;
+    width: 40px;
+  }
+
+  .BatmanMenu {
+    margin-top: -107px;
+    margin-left: 120px;
+    height: 180px;
+    width: 180px;
+  } */
+
+  /* Флэш */
+  /* .tile-with-information-3 {
+    margin-left: 20px;
+    height: 180px;
+    width: 300px;
+  }
+
+  .FlashMenu1 {
+    margin-left: -20px;
+    margin-top: 70px;
+    font-size: 30px;
+    width: 40px;
+  }
+
+  .FlashMenu {
+    margin-top: -107px;
+    margin-left: 145px;
+    height: 180px;
+    width: 160px;
+  }
+} */ 
